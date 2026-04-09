@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Favorito"
+    android:icon="@drawable/baseline_star"
+    android:id="@+id/mFav"
+    app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Recente"
+        android:icon="@drawable/baseline_access_time"
+        android:id="@+id/mRecente"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="Arquivo"
+        android:icon="@drawable/baseline_insert_drive_file"
+        android:id="@+id/mArquivo"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Notificações"
+        android:icon="@drawable/baseline_notifications"
+        android:id="@+id/mNotificacao"
+        app:showAsAction="ifRoom"/>
+
+</menu>

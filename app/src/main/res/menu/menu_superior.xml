@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Salvar"
+    android:id="@+id/mSalvar"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_save"
+    />
+    <item
+    android:title="Editar"
+    android:id="@+id/mEditar"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_edit"
+    />
+    <item
+    android:title="Deletar"
+    android:id="@+id/mDeletar"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_delete_forever"
+    />
+   <item
+    android:title="Atualizar"
+    android:id="@+id/mAtualizar"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_system_update_alt"
+       />
+
+
+
+</menu>
