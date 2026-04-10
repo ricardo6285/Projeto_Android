@@ -8,12 +8,18 @@
     tools:context=".MainActivity">
 
 
+
+
 <com.google.android.material.appbar.MaterialToolbar
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:menu="@menu/menu_superior"
     app:navigationIcon="@drawable/baseline_arrow_back"
+    android:id="@+id/idToolbar"
     />
+
+
+
 
  <com.google.android.material.bottomnavigation.BottomNavigationView
      android:layout_width="match_parent"
@@ -23,12 +29,40 @@
      android:layout_alignParentBottom="true"
      app:labelVisibilityMode="labeled"
      />
+
+ <com.google.android.material.tabs.TabLayout
+     android:layout_below="@+id/idToolbar"
+     android:id="@+id/idTabLayout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+
+  <com.google.android.material.tabs.TabItem
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Novas"/>
+
+  <com.google.android.material.tabs.TabItem
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Usadas"/>
+
+  <com.google.android.material.tabs.TabItem
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Coleção"/>
+
+ </com.google.android.material.tabs.TabLayout>
+
+
+
+
 <com.google.android.material.floatingactionbutton.FloatingActionButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/idFab"
     android:layout_alignParentBottom="true"
-    android:layout_marginBottom="100dp"
+    android:layout_marginBottom="120dp"
     android:layout_alignParentEnd="true"
     android:layout_marginEnd="20dp"
     android:src="@drawable/outline_add"
