@@ -40,16 +40,19 @@
   <com.google.android.material.tabs.TabItem
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+android:icon="@drawable/baseline_fiber_new"
       android:text="Novas"/>
 
   <com.google.android.material.tabs.TabItem
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:icon="@drawable/baseline_house"
       android:text="Usadas"/>
 
   <com.google.android.material.tabs.TabItem
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:icon="@drawable/baseline_view_column"
       android:text="Coleção"/>
 
  </com.google.android.material.tabs.TabLayout>
